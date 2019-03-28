@@ -1,0 +1,36 @@
+ /* Set the size of the div element that contains the map */
+ #map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+   }
+
+   html,body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+   }
+   .navbar-brand {
+      font-weight: bold;
+      font-size: 30px;
+     
+   }
+  
+   .contaier-fluid {
+      height:calc(100%-76%)
+   }
+
+   .row {
+      height: 100%;
+      overflow-y:auto;
+   }
+
+   #map-container{
+      padding: 0px;
+      height: 100%;
+   }
+   #voyage-container {
+      padding: 15px;
+      overflow-y:auto;
+      height: 100%;
+      background: #eee;
+   }
