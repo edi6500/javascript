@@ -1,11 +1,16 @@
  /* Set the size of the div element that contains the map */
  #map {
-    height: 400px;  /* The height is 400 pixels */
+    height: 800px;  /* The height is 400 pixels */
     width: 100%;  /* The width is the width of the web page */
+    /* position: absolute;
+    top: 0;
+    bottom:0;
+    left:0;
+    right: 0; */
    }
 
    html,body {
-      height: 100%;
+     
       margin: 0;
       padding: 0;
    }
@@ -16,7 +21,7 @@
    }
   
    .contaier-fluid {
-      height:calc(100%-76%)
+      height:calc(100%-76px)
    }
 
    .row {
@@ -33,4 +38,8 @@
       overflow-y:auto;
       height: 100%;
       background: #eee;
+   }
+
+   .card{
+      margin:20px;
    }
