@@ -2,7 +2,7 @@ const data = [
     {
         id:1,
         imagePath:"img/budapest.jpg",
-        place:"Bruxelles",
+        place:"Budapest",
         description: "un endroit calme",
         done:true,
         link:"https://www.routard.com/guide/code_dest/budapest.htm",
@@ -15,7 +15,7 @@ const data = [
     {
         id:2,
         imagePath:"img/bruxelles.jpg",
-        place:"Budapest",
+        place:"Bruxelles",
         description: "un endroit calme",
         done:true,
         link:"https://visit.brussels/fr",
@@ -27,14 +27,14 @@ const data = [
 
     {
         id:3,
-        imagePath:"img/budapest.jpg",
-        place:"Londre",
-        description: "un endroit calme",
+        imagePath:"img/varsovie.jpg",
+        place:"Varsovie",
+        description: "Varsovie est la capitale tentaculaire de la Pologne. Son architecture extrêmement variée reflète son long passé mouvementé, des églises gothiques et des palais néoclassiques aux blocs d'immeubles de l'ère soviétique et aux gratte-ciels modernes. La vieille ville a été restaurée après avoir été massivement détruite lors de la Seconde Guerre mondiale.",
         done:true,
         link:"https://www.routard.com/guide/code_dest/budapest.htm",
-        coordiates:{
-            lat:49.503776,
-            lng: 19.050685
+        coordiates:{ 
+            lat:52.245838,
+            lng: 21.014051
         }
     },
 ]

@@ -1,12 +1,12 @@
  /* Set the size of the div element that contains the map */
- #map {
+ #map,#panorama {
     height: 800px;  /* The height is 400 pixels */
     width: 100%;  /* The width is the width of the web page */
-    /* position: absolute;
+     position: absolute;
     top: 0;
     bottom:0;
     left:0;
-    right: 0; */
+    right: 0; 
    }
 
    html,body {
@@ -42,4 +42,12 @@
 
    .card{
       margin:20px;
+   }
+
+   #reset-map,#back-map{
+      position: absolute;
+      z-index: 10;
+      left: calc(50%);
+      top: 10px;
+      width: 150px;
    }
